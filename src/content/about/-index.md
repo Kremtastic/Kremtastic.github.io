@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-description: this is meta description
+description: This is meta description
 image: "@assets/profile/john-doe.jpg"
 draft: false
 ---
