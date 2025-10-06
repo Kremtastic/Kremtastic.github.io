@@ -33,7 +33,7 @@ export default defineConfig({
       themes: { // https://shiki.style/themes
         light: "light-plus",
         dark: "dark-plus",
-      } 
+      }  
     },
     extendDefaultPlugins: true
   },
