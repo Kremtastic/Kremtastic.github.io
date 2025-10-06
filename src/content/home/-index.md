@@ -2,7 +2,7 @@
 #image: "@assets/astrogon-star.svg"
 image: "@assets/profile/john-doe.jpg"
 imageAlt: Placeholder
-title: Kristian Takvam
+title: Kristian Emil Takvam
 content: My personal blog.
 button:
   label: GitHub
