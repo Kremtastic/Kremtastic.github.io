@@ -13,7 +13,7 @@ import cloudflare from "@astrojs/cloudflare";
 // https://astro.build/config
 export default defineConfig({
   site: "https://yourusername.github.io",
-  base: "/",
+  base: "/kremtastic.github.io/",
   trailingSlash: "ignore",
   prefetch: {
     prefetchAll: true
