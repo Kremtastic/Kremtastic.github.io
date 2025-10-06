@@ -37,4 +37,14 @@ export default defineConfig({
     },
     extendDefaultPlugins: true
   },
+
+  // Stop Vite from SSR/prebundling CommonJS packages
+  vite: {
+    ssr: {
+      noExternal: ["react-lite-youtube-embed"], // prevent SSR import
+    },
+    optimizeDeps: {
+      exclude: ["react-lite-youtube-embed"], // don't prebundle it
+    },
+  },
 });
