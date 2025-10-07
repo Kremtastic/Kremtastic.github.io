@@ -12,6 +12,7 @@ import {
   FaTiktok,
   FaGlobe,
   FaYoutube,
+  FaRss,
 } from "react-icons/fa";
 
 interface Props {
@@ -151,6 +152,20 @@ const iconClass =
           >
             <span class="sr-only">Website</span>
             <FaGlobe className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.rss && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="RSS"
+            href={links.rss}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">RSS</span>
+            <FaRss className="w-6 h-6" />
           </a>
         </li>
       )}

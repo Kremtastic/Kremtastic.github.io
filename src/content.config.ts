@@ -21,6 +21,7 @@ const social = z.object({
   pinterest: z.string().optional(),
   tiktok: z.string().optional(),
   website: z.string().optional(),
+  rss: z.string().optional(),
   youtube: z.string().optional(),
 });
 
