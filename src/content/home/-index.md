@@ -1,6 +1,5 @@
 ---
-#image: "@assets/astrogon-star.svg"
-image: "@assets/profile/john-doe.jpg"
+image: "@assets/star.svg"
 imageAlt: Placeholder
 title: Kristian Emil Takvam
 content: My personal blog.
