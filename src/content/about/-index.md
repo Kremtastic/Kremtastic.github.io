@@ -1,12 +1,14 @@
 ---
-title: Welcome!
-description: This is meta description
+title: Kristian Emil Takvam
+description: About me
 image: "@assets/profile/kristianFilter.jpg"
 draft: false
 ---
 
-Thank you for stopping by this lonely island inside this vast digital ocean we call the internet. Here you may find my latest blog posts, as well as a showcase of projects I've created. Mostly related to Game Dev, Software Engineering and just general Computer Science stuff. Perhaps other kinds of creative endeavours will be featured here as well. Hopefully you do find this an inspiring website, and not super cringe! I would hate to be **that** guy. Anyway, have a great day!
-
-<br>Yours truly,</br>
-
-#### Kristian Takvam
+#### About me
+## 🎓
+Currently a software engineering master’s student working on virtual reality and serious games development
+## 🎮
+Expect plenty of game dev–related posts here as it’s one of my biggest passions
+## 💪
+Outside of tech, I love competing in powerlifting and chasing new PRs
