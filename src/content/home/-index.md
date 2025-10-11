@@ -1,5 +1,6 @@
 ---
-image: "@assets/star.svg"
+#image: "@assets/star.svg"
+image: ""
 imageAlt: Placeholder
 title: Kristian Emil Takvam
 content: My personal blog.
