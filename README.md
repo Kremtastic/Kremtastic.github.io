@@ -1,15 +1,16 @@
-<div align="center">
-  <img src="src/assets/banner.svg" style="width:80%;" alt="banner" align="center" />
-</div>
+# Astro Portfolio Template @trueberryless
 
----
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
-[![GitHub License](https://img.shields.io/github/license/astrogon/astrogon?color=red)](https://github.com/Kremtastic/Kremtastic.github.io/blob/main/LICENSE) [![Repo Size](https://img.shields.io/github/repo-size/kremtastic/Kremtastic.github.io)](https://github.com/Kremtastic/Kremtastic.github.io) ![GitHub branch check runs](https://img.shields.io/github/check-runs/kremtastic/Kremtastic.github.io/main) [![Website](https://img.shields.io/website?up_message=online&up_color=limegreen&down_message=offline&down_color=yellow&url=https%3A%2F%2Fastrogon.reednel.com%2F)](https://kremtastic.github.io/)
+## Getting started
 
-Heres the repo for my personal website!
+1. Use this template via the GitHub UI.
+2. Clone your own repo and open it in any editor of your choice (global search recommended).
+3. Search for `TODO` everywhere and complete them. Be aware: to fully complete these steps it will take you around one hour, so be patient, but I promise, it will be worth it 💜
+4. Deploy your website with Netlify, Vercel or in any other possible way, Astro supports: https://docs.astro.build/en/guides/deploy/
 
-**Work in progress** - Please check in later. I promise it will be worth it.
+## License
 
+Licensed under the MIT license, Copyright © trueberryless.
 
----
-###### *Built with the <a href="https://github.com/astrogon/astrogon" target="_blank">Astrogon</a> theme by <a href="https://reednel.com/" target="_blank">Reed Nelson</a> (MIT License)*
+See [LICENSE](/LICENSE) for more information.

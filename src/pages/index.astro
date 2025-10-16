@@ -1,9 +1,34 @@
 ---
-import { getIndex } from "@lib/contentParser";
-import EntryLayout from "@components/home/EntryLayout.astro";
-import type { HomeEntry } from "@/types";
+import Layout from "../layouts/Layout.astro";
+import Intro from "../components/Intro.astro";
+import Projects from "../components/Projects.astro";
+import WaveDivider from "../components/WaveDivider.astro";
+import Webring from "../components/Webring.astro";
+import SpotifyNowPlaying from "../components/SpotifyNowPlaying.astro";
+import Socials from "../components/Socials.astro";
 
-const entry = (await getIndex("home")) as HomeEntry;
+// TODO: Fill in your preferences.
+const variables = {
+  name: "Kristian Emil Takvam",
+  subtitles:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis nisi ante, nec tincidunt ligula mattis nec. Maecenas metus mauris, fermentum et vulputate ut, dapibus vel massa.",
+};
 ---
 
-<EntryLayout entry={entry} />
+<Layout title={variables.name}>
+  <main>
+    <Intro name={variables.name} subtitle={variables.subtitles} />
+    <WaveDivider color="rosewater" speed={100} size={0.8} direction="left" />
+
+    <Projects />
+    <WaveDivider color="flamingo" speed={100} size={0.8} direction="right" />
+
+    <SpotifyNowPlaying />
+    <WaveDivider color="mauve" speed={100} size={0.8} direction="left" />
+
+    <Webring />
+    <WaveDivider color="pink" speed={100} size={0.8} direction="right" />
+
+    <Socials />
+  </main>
+</Layout>
