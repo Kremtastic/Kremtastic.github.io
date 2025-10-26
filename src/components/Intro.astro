@@ -11,7 +11,9 @@ const { name, subtitle } = Astro.props;
 
 <section class="intro">
   <div class="content">
-    <img src={profilePicture.src} alt="trueberryless" class="pfp" />
+    <a href="/">
+      <img src={profilePicture.src} alt="trueberryless" class="pfp" />
+    </a>
     <div class="text">
       <h1>Yo, I'm {name}!</h1>
       <p class="subtitle">{subtitle}</p>
