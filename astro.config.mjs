@@ -3,9 +3,11 @@ import netlify from "@astrojs/netlify";
 import react from "@astrojs/react";
 import { defineConfig, envField } from "astro/config";
 
+import vtbot from "astro-vtbot";
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
+  integrations: [react(), vtbot()],
   adapter: netlify(),
   env: {
     schema: {
