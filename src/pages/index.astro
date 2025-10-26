@@ -7,6 +7,7 @@ import WaveDivider from "../components/WaveDivider.astro";
 import Webring from "../components/Webring.astro";
 import SpotifyNowPlaying from "../components/SpotifyNowPlaying.astro";
 import Socials from "../components/Socials.astro";
+import Blogs from "../components/Blogs.astro";
 
 // TODO: Fill in your preferences.
 const variables = {
@@ -21,7 +22,7 @@ const variables = {
     <Intro name={variables.name} subtitle={variables.subtitles} />
     <WaveDivider color="rosewater" speed={100} size={0.8} direction="left" />
 
-    <Posts />
+    <Blogs />
     <WaveDivider color="teal" speed={100} size={0.8} direction="left" />
     
     <Projects />
